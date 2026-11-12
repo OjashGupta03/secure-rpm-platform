@@ -1,0 +1,28 @@
+# Env / secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv_test/
+.pytest_cache/
+*.db
+*.db-journal
+
+# Quantum training artifacts (regenerate via app.ai.quantum.training — see README)
+backend/app/ai/quantum/artifacts/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
